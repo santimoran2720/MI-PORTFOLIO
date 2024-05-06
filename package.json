@@ -1,0 +1,23 @@
+{
+  "name": "mi-portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "animate.css": "^4.1.1",
+    "bootswatch": "^5.3.3",
+    "classnames": "^2.5.1",
+    "next": "^14.2.3",
+    "node": "^22.0.0",
+    "nprogress": "^0.2.0",
+    "prop-types": "^15.8.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  }
+}
