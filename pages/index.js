@@ -1,18 +1,27 @@
 import Layout from "../components/Layout";
 import Link from "next/link";
-import projects from "./projects";
-import { skills, experiences, projects } from "../profile";
 
+import Navbar from "../components/Navbar";
+import { skills, experiences, projects } from "../profile";
 const Index = () => (
+  
+  
   <Layout>
+    
+  
+    
+    
+        
     {/* Header Card */}
     <header className="row">
       <div className="col-md-12">
+    
         <div className="card card-body bg-secondary text-light animate__animated animate__fadeIn">
           <div className="row">
             <div className="col-md-4">
               <img src="/santimoranprofile.jpg" alt="" className="img-fluid" />
             </div>
+            
             <div className="col-md-8">
               <h1>Santiago Moran</h1>
               <h3>Developer in progress</h3>
@@ -30,9 +39,8 @@ const Index = () => (
         </div>
       </div>
     </header>
-
     {/* Second section */}
-
+   
     <section className="row">
       <div className="col-md-4 py-2">
         <div className="card bg-light animate__animated animate__fadeInLeft">
@@ -51,7 +59,7 @@ const Index = () => (
                     aria-valuenow="50"
                     aria-valuemin="0"
                     aria-valuemax="100"
-                  ></div>
+                    ></div>
                 </div>
               </div>
             ))}
@@ -98,16 +106,17 @@ const Index = () => (
               <div className="col-md-12 my-2">
                 <h1 className="text-center text-light">Portfolio</h1>
               </div>
-              {projects.map(({ name, description, image }, index) => (
+              {projects.map(({ title,text , link, image }, index) => (
                 <div className="col-md-4 p-2" key={index}>
                   <div className="card h-100">
                     <div className="overflow">
-                      <img src={`/${image}`} alt="" className="card-img-top" />
+                      <img src="/public/calculator.png"alt="" className="card-img-top" />
                     </div>
                     <div className="card-body">
-                      <h3>{name}</h3>
-                      <p>{description}</p>
-                      <a href="#!">Know More</a>
+                      <h3>{title}</h3>
+                      <p>{text}</p>
+                      <h3>{link}</h3>
+                      <a href="#">Know More</a>
                     </div>
                   </div>
                 </div>
@@ -125,7 +134,13 @@ const Index = () => (
         </div>
       </div>
     </section>
+ 
+  
+                  
+
   </Layout>
 );
+  
+
 
 export default Index;
