@@ -1,6 +1,6 @@
 import Layout from "../components/Layout";
 import Link from "next/link";
-
+import projects from "./projects";
 import { skills, experiences, projects } from "../profile";
 
 const Index = () => (
@@ -65,23 +65,27 @@ const Index = () => (
           <div className="card-body">
             <h1>Experience</h1>
 
-            <ul>
-              {/* List Item Experience */}
-              {experiences.map(({ title, from, to }, index) => (
-                <li key={index}>
-                  <h3>{title}</h3>
-                  <h5>
-                    {from} {to ? `- ${to}` : "- current"}
-                  </h5>
-                  <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                    Sint excepturi ea explicabo. Illum suscipit illo, porro
-                    quisquam voluptatem officiis fugiat vel animi aliquam
-                    inventore rem. Quo laudantium temporibus cupiditate. Aut?
-                  </p>
-                </li>
-              ))}
-            </ul>
+            <div className="sm:items-center md:mx-20 xl:mx-40 border-2 border-gray-400 dark:border-white rounded-md">
+            <div className="grid md:justify-center mx-10 py-10">
+              <h4 className="text-3xl font-bold">Calculadora</h4>
+              <p className="text-lg py-10 leading-8">
+              Uno de mis primeras pruebas de autodidacta fue esta calculadora que aunque sea muy basica fue lo que me ayudo a romper el hielo con la programacion
+              </p>
+              <div className=" ">
+                <a
+                  target="_blank"
+                  rel="noopener"
+                  href="https://calculadora-ilonnxnko-morans-teams-projects.vercel.app/"
+                >
+                  <Image
+                    className="xl:max-h-fit md:float-right rounded shadow-lg "
+                    alt="Logo"
+                    src={projects}
+                  ></Image>
+                </a>
+              </div>
+            </div>
+          </div>
             <Link href="/hireme" className="btn btn-light">
               Know More
             </Link>
