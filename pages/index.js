@@ -15,14 +15,14 @@ const Index = () => (
             </div>
             <div className="col-md-8">
               <h1>Santiago Moran</h1>
-              <h3>Full Stack Developer</h3>
+              <h3>Developer in progress</h3>
               <p>
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                 Molestiae atque ullam perferendis harum, nisi porro voluptate,
                 iste consequuntur enim reprehenderit architecto consectetur cum?
                 Totam ad molestias natus illum illo officia.
               </p>
-              <Link href="/hireme" className="btn btn-outline-light">
+              <Link href="/github" className="btn btn-outline-light">
                 Hire Me
               </Link>
             </div>
