@@ -5,6 +5,12 @@ import PropTypes from "prop-types";
 import NProgress from "nprogress";
 import nProgress from "nprogress";
 import classNames from "classnames";
+import { GoArrowLeft , GoArrowRight } from "react-icons/go";
+import { SiNextdotjs, SiCsswizardry,SiTailwindcss,SiGmail } from "react-icons/si";
+import { DiJsBadge } from "react-icons/di";
+import { FaReact } from "react-icons/fa";
+import { IoPhonePortraitOutline } from "react-icons/io5";
+
 
 const Layout = ({ children, title, footer = true, dark = false }) => {
   const router = useRouter();
@@ -44,9 +50,19 @@ const Layout = ({ children, title, footer = true, dark = false }) => {
       {footer && (
         <footer className="bg-dark text-light text-center">
           <div className="container p-4">
-            <h1>&copy; Santiago Moran Portfolio</h1>
+            <h1>&copy; Santiago Moran Portfolio</h1> <br/>
+            <p>Formas de contactarme:</p>
+            
+            <h1><SiGmail/> : moran3490@gmail.com</h1>
+           <h3><IoPhonePortraitOutline/> : +54 2473409098</h3>
+           <br/>
+            <h3>Tecnologias y frameworks que use para crear este portfolio: <br/> <br/>
+       <GoArrowRight/>   <SiNextdotjs/>  <DiJsBadge/> <FaReact/> <SiCsswizardry/>   <SiTailwindcss/>         <GoArrowLeft/>
+            </h3> 
+            <br/>
             <p>2002 - {new Date().getFullYear()}</p>
             <p>All rights Reserved.</p>
+           
           </div>
         </footer>
       )}

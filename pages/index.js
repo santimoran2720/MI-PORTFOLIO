@@ -1,27 +1,24 @@
 import Layout from "../components/Layout";
 import Link from "next/link";
-
+import calculator from "../public/calculator.png";
+import post from "../post";
 import Navbar from "../components/Navbar";
-import { skills, experiences, projects } from "../profile";
+import { skills, experiences, projects, imageURL } from "../profile";
+import { GoArrowLeft } from "react-icons/go";
+import { DiJsBadge } from "react-icons/di";
+import { TiHtml5 } from "react-icons/ti";
+import { SiCsswizardry } from "react-icons/si";
 const Index = () => (
-  
-  
   <Layout>
-    
-  
-    
-    
-        
     {/* Header Card */}
     <header className="row">
       <div className="col-md-12">
-    
         <div className="card card-body bg-secondary text-light animate__animated animate__fadeIn">
           <div className="row">
             <div className="col-md-4">
               <img src="/santimoranprofile.jpg" alt="" className="img-fluid" />
             </div>
-            
+
             <div className="col-md-8">
               <h1>Santiago Moran</h1>
               <h3>Developer in progress</h3>
@@ -40,7 +37,7 @@ const Index = () => (
       </div>
     </header>
     {/* Second section */}
-   
+
     <section className="row">
       <div className="col-md-4 py-2">
         <div className="card bg-light animate__animated animate__fadeInLeft">
@@ -59,7 +56,7 @@ const Index = () => (
                     aria-valuenow="50"
                     aria-valuemin="0"
                     aria-valuemax="100"
-                    ></div>
+                  ></div>
                 </div>
               </div>
             ))}
@@ -106,17 +103,21 @@ const Index = () => (
               <div className="col-md-12 my-2">
                 <h1 className="text-center text-light">Portfolio</h1>
               </div>
-              {projects.map(({ title,text , link, image }, index) => (
+              {projects.map(({ text, imageURL, post }, index) => (
                 <div className="col-md-4 p-2" key={index}>
                   <div className="card h-100">
                     <div className="overflow">
-                      <img src="/public/calculator.png"alt="" className="card-img-top" />
+                      <img
+                        src={"/public/calculator.png"}
+                        alt=""
+                        className="card-img-top"
+                      />
                     </div>
                     <div className="card-body">
-                      <h3>{title}</h3>
                       <p>{text}</p>
-                      <h3>{link}</h3>
-                      <a href="#">Know More</a>
+                      <br></br>
+                      <p>Aplicacion creada con: <TiHtml5/> <SiCsswizardry/> <DiJsBadge/></p>
+                      <a href="#">Haz click aqui! <GoArrowLeft /></a>
                     </div>
                   </div>
                 </div>
@@ -124,7 +125,7 @@ const Index = () => (
 
               <div className="col-md-12 mt-4">
                 <div className="text-center">
-                  <Link href="/portfolio" className="btn btn-outline-light">
+                  <Link href="/github" className="btn btn-outline-light">
                     More Projects
                   </Link>
                 </div>
@@ -134,13 +135,7 @@ const Index = () => (
         </div>
       </div>
     </section>
- 
-  
-                  
-
   </Layout>
 );
-  
-
 
 export default Index;

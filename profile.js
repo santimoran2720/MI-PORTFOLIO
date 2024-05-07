@@ -54,10 +54,11 @@ export const experiences = [
 
 export const projects = [
   {
-    "title": "file:///home/santiago/Desktop/Calduladora.js/index.html",
-    "text": "Uno de mis primeras pruebas de autodidacta fue esta calculadora que aunque sea muy basica fue lo que me ayudo a romper el hielo con la programacion",
-    "link": "https://calculadora-ilonnxnko-morans-teams-projects.vercel.app/",
-    "image": "./public/calculator.png"
+    
+    title: "file:///home/santiago/Desktop/Calduladora.js/index.html",
+    text: "Una de mis primeras pruebas como estudiante fue esta calculadora que aunque sea muy basica fue lo que me ayudo a romper el hielo con la programacion",
+    link: "https://calculadora-ilonnxnko-morans-teams-projects.vercel.app/",
+    imageURL: "file:///home/santiago/Desktop/Calduladora.js/index.html"
   },
   {
     name: " Website 2",
