@@ -1,37 +1,37 @@
 export const skills = [
   {
-    skill: "Javascript",
+    skill: "Html",
+    percentage: 100,
+  },
+  {
+    skill: "Css",
     percentage: 50,
   },
   {
-    skill: "Golang",
-    percentage: 80,
+    skill: "Javascrypt",
+    percentage: 50,
   },
   {
-    skill: "Nodejs",
-    percentage: 90,
+    skill: "React",
+    percentage: 50,
   },
   {
-    skill: "Blockchain",
-    percentage: 40,
-  },
-  {
-    skill: "Physics",
+    skill: "Next",
     percentage: 70,
   },
   {
-    skill: "Economics",
-    percentage: 70,
+    skill: "Php",
+    percentage: 50,
   },
   {
-    skill: "Machine Learning",
-    percentage: 70,
+    skill: "Laravel",
+    percentage: 50,
   },
 ];
 
 export const experiences = [
   {
-    title: "Software developer at Microsoft",
+    title: "Software developer at Php",
     description:
       "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint excepturi ea explicabo. Illum suscipit illo, porro quisquam voluptatem officiis fugiat vel animi aliquam inventore rem. Quo laudantium temporibus cupiditate. Aut?",
     from: 2000,
@@ -54,37 +54,37 @@ export const experiences = [
 
 export const projects = [
   {
-    name: "Awesome Website 1",
+    name: " Website 1",
     description:
       "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint excepturi ea explicabo. Illum suscipit illo, porro quisquam voluptatem",
     image: "portfolio1.jpeg",
   },
   {
-    name: "Awesome Website 2",
+    name: " Website 2",
     description:
       "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint excepturi ea explicabo. Illum suscipit illo, porro quisquam voluptatem",
     image: "portfolio2.jpg",
   },
   {
-    name: "Awesome Website 3",
+    name: " Website 3",
     description:
       "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint excepturi ea explicabo. Illum suscipit illo, porro quisquam voluptatem",
     image: "portfolio3.png",
   },
   {
-    name: "Awesome Website 4",
+    name: " Website 4",
     description:
       "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint excepturi ea explicabo. Illum suscipit illo, porro quisquam voluptatem",
     image: "portfolio4.png",
   },
   {
-    name: "Awesome Website 5",
+    name: " Website 5",
     description:
       "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint excepturi ea explicabo. Illum suscipit illo, porro quisquam voluptatem",
     image: "portfolio5.jpeg",
   },
   {
-    name: "Awesome Website 6",
+    name: " Website 6",
     description:
       "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint excepturi ea explicabo. Illum suscipit illo, porro quisquam voluptatem",
     image: "portfolio6.jpeg",
