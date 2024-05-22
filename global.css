@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+
+
 html,
 body,
 body > div:first-child,
@@ -16,7 +18,7 @@ div#__next > div {
 }
 
 .overflow .card-img-top {
-  background-color: red;
+  
   transform: scale(1);
   transition: all 0.2s ease-in-out;
 }
@@ -33,5 +35,7 @@ div#__next > div {
   border-top-color: #ffbb00;
   border-left-color: #ffbb00;
 }
+
+
 
 
