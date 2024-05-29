@@ -31,25 +31,13 @@ export const skills = [
 
 export const experiences = [
   {
-    title: "Software developer at Php",
+    title: "Software developer en Matrice Consulting.",
     description:
-      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint excepturi ea explicabo. Illum suscipit illo, porro quisquam voluptatem officiis fugiat vel animi aliquam inventore rem. Quo laudantium temporibus cupiditate. Aut?",
-    from: 2000,
-    to: 2005,
+      "Durante 11 meses, he tenido el privilegio de desempeñarme como desarrollador full stack, donde he consolidado mis habilidades en diversas tecnologías clave como PHP, Laravel, JavaScript, CSS y HTML5. Mi experiencia en este rol me ha permitido enfrentar desafíos complejos, desarrollar soluciones innovadoras y colaborar eficazmente en equipos multidisciplinarios para ofrecer productos de alta calidad. Estoy comprometido con la mejora continua y ansioso por seguir creciendo profesionalmente en el campo del desarrollo de software",
+    from: "Julio del 2022",
+    to: "Mayo del 2023",
   },
-  {
-    title: "Software developer at Google",
-    description:
-      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint excepturi ea explicabo. Illum suscipit illo, porro quisquam voluptatem officiis fugiat vel animi aliquam inventore rem. Quo laudantium temporibus cupiditate. Aut?",
-    from: 2005,
-    to: 2007,
-  },
-  {
-    title: "Software developer at SpaceX",
-    description:
-      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint excepturi ea explicabo. Illum suscipit illo, porro quisquam voluptatem officiis fugiat vel animi aliquam inventore rem. Quo laudantium temporibus cupiditate. Aut?",
-    from: 2010,
-  },
+  
 ];
 
 export const projects = [
@@ -58,7 +46,7 @@ export const projects = [
     title: "file:///home/santiago/Desktop/Calduladora.js/index.html",
     text: "Una de mis primeras pruebas como estudiante fue esta calculadora que aunque sea muy basica fue lo que me ayudo a romper el hielo con la programacion",
     link: "https://calculadora-ilonnxnko-morans-teams-projects.vercel.app/",
-    imageURL: "file:///home/santiago/Desktop/Calduladora.js/index.html"
+    image: "file:///home/santiago/Desktop/Calduladora.js/index.html"
   },
   {
     name: " Website 2",
@@ -72,24 +60,7 @@ export const projects = [
       "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint excepturi ea explicabo. Illum suscipit illo, porro quisquam voluptatem",
     image: "portfolio3.png",
   },
-  {
-    name: " Website 4",
-    description:
-      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint excepturi ea explicabo. Illum suscipit illo, porro quisquam voluptatem",
-    image: "portfolio4.png",
-  },
-  {
-    name: " Website 5",
-    description:
-      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint excepturi ea explicabo. Illum suscipit illo, porro quisquam voluptatem",
-    image: "portfolio5.jpeg",
-  },
-  {
-    name: " Website 6",
-    description:
-      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint excepturi ea explicabo. Illum suscipit illo, porro quisquam voluptatem",
-    image: "portfolio6.jpeg",
-  },
+ 
 ];
 
 export const posts = [
